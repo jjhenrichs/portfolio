@@ -87,6 +87,7 @@ footer {
   justify-content: space-evenly;
   padding: 10px 0 5px;
   flex-wrap: wrap;
+  font-size: 20px;
 }
 
 /* Footer - Social Media Icons */
@@ -102,7 +103,7 @@ footer {
 }
 
 .social-media ul i {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .copyright {
@@ -112,6 +113,10 @@ footer {
 
 /* Footer - Media Queries */
 @media only screen and (max-width: 425px) {
+  .content ul {
+    font-size: 16px;
+  }
+
   .social-media ul {
     justify-content: space-evenly;
     padding: 10px 0;
@@ -124,6 +129,10 @@ footer {
 
   .social-media p {
     padding-bottom: 0;
+  }
+
+  .social-media ul i {
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 320px) {
