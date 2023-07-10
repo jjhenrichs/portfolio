@@ -96,6 +96,10 @@ footer {
   padding: 5px 0;
 }
 
+.social-media ul i {
+  font-size: 24px;
+}
+
 .copyright {
   text-align: center;
   padding: 5px 0 10px;
