@@ -77,3 +77,25 @@ nav ul li a {
 }
 
 /* Footer */
+
+footer {
+  background: gray;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Footer - Media Queries */
+@media only screen and (max-width: 425px) {
+  .copyright {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .copyright {
+    font-size: 12px;
+  }
+}
