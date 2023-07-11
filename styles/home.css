@@ -82,6 +82,42 @@ nav ul li {
   }
 }
 
+/* Main */
+
+/* Main - Bio Section */
+
+#bio {
+  background: #333;
+  color: #bbb;
+}
+
+#bio h2 {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+#bio article {
+  display: flex;
+  padding: 50px;
+  margin: 0 300px;
+  padding-bottom: 75px;
+}
+
+#bio article img {
+  /* border: 1px solid blue; */
+  border-radius: 50%;
+}
+
+#bio article p {
+  /* border: 1px solid white; */
+  margin: 0 50px 0 25px;
+}
+
+/* Main - Projects Section */
+
+/* Main - Testimonials Section */
+
 /* Footer */
 
 footer {
