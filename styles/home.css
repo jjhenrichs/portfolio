@@ -21,6 +21,7 @@ a {
   justify-content: space-between;
   padding: 10px;
   background: mediumturquoise;
+  padding-bottom: 0;
 }
 
 .mobile {
@@ -32,6 +33,7 @@ a {
   display: inline-block;
   padding: 10px;
   margin-left: 30px;
+  height: 40px;
 }
 
 nav {
@@ -46,6 +48,11 @@ nav ul {
 
 nav ul li {
   padding: 10px;
+  height: 55px;
+}
+
+.home {
+  border-bottom: 3px solid blue;
 }
 
 /* Header - Media Queries */
