@@ -1,3 +1,104 @@
 .contact {
   border-bottom: 3px solid blue;
 }
+
+/* Form */
+
+form {
+  border: 1px solid black;
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Form - Name */
+
+.name {
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+/* Form - Email */
+
+.email {
+  padding-top: 15px;
+  margin-left: 30px;
+}
+
+#title,
+#f_name,
+#l_name,
+#email,
+#message {
+  outline: 1px solid;
+}
+
+#title:focus,
+#f_name:focus,
+#l_name:focus,
+#email:focus,
+#message:focus {
+  outline: 3px solid gold;
+}
+
+/* Form - Message */
+
+.message,
+.message label {
+  padding: 10px;
+}
+
+textarea {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  resize: none; /* textarea size is fixed */
+}
+
+/* Form - Buttons */
+
+.buttons {
+  padding-bottom: 20px;
+}
+
+.button {
+  width: 80px;
+  margin: 0 5px;
+}
+
+/* Form - Media Queries */
+
+@media only screen and (max-width: 768px) {
+  form {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  form {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+
+  textarea {
+    height: 13em; /* Equivalent to textarea's rows attr */
+    width: 28em; /* Equivalent to textarea's cols attr */
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  textarea {
+    height: 13em; /* Equivalent to textarea's rows attr */
+    width: 24em; /* Equivalent to textarea's cols attr */
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  textarea {
+    height: 16em;
+    width: 20em;
+  }
+}

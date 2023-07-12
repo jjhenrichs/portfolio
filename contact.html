@@ -42,6 +42,45 @@
     </header>
     <main>
       <form action="./submission.html" action="GET">
+        <section class="name">
+          <label for="title">Title:</label>
+          <select name="title" id="title" name="title" required>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
+          </select>
+          <br />
+          <br />
+          <label for="f_name">First Name:</label>
+          <input type="text" id="f_name" name="f_name" required />
+          <br />
+          <br />
+          <label for="l_name">Last Name:</label>
+          <input type="text" id="l_name" name="l_name" required />
+        </section>
+        <section class="email">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+        </section>
+
+        <section class="message">
+          <label for="message">Message:</label>
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            name="message"
+            cols="50"
+            rows="10"
+            required
+          ></textarea>
+        </section>
+
+        <section class="buttons">
+          <input type="reset" value="Clear" class="button" />
+          <input type="submit" value="Submit" class="button" />
+        </section>
+
         <!-- <input type="button" value="Return" onclick="history.back()" /> -->
       </form>
     </main>
