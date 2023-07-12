@@ -2,6 +2,31 @@
   border-bottom: 3px solid blue;
 }
 
+h2 {
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#icons {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#icons ul {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 30px;
+}
+
+.fa-brands {
+  font-size: 36px;
+}
+
+.fa-brands:hover {
+  color: aqua;
+}
+
 /* Form */
 
 form {
@@ -50,7 +75,6 @@ form {
 }
 
 textarea {
-  border: 1px solid black;
   border-radius: 20px;
   margin: 10px;
   padding: 10px;
@@ -77,10 +101,17 @@ textarea {
 }
 
 @media only screen and (max-width: 425px) {
+  #icons {
+    width: 100%;
+  }
   form {
     width: 100%;
     margin: 0;
     border: none;
+  }
+
+  .fa-brands {
+    font-size: 24px;
   }
 
   textarea {
