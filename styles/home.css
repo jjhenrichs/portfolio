@@ -2,6 +2,11 @@
   border-bottom: 3px solid blue;
 }
 
+h2 {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
 /* Main */
 
 /* Main - Bio Section */
@@ -9,11 +14,6 @@
 #bio {
   background: #333;
   color: #bbb;
-}
-
-#bio h2 {
-  text-align: center;
-  padding: 40px 0 20px;
 }
 
 #bio article {
@@ -67,3 +67,57 @@
     margin: 0 auto;
   }
 }
+
+/* Main - Projects Section */
+
+#projects {
+  background: #fff;
+  color: #666;
+  height: 300px;
+  border: 1px solid palevioletred;
+}
+
+/* Projects - Skills */
+
+.skills {
+  display: flex;
+  justify-content: center;
+  color: #333;
+}
+
+.skill-title {
+  padding: 15px 10px;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  padding: 0;
+}
+
+.fa-html5 {
+  color: orangered;
+  background: #fff;
+  font-size: 56px;
+}
+
+.fa-css3-alt {
+  color: blue;
+  background: #fff;
+  font-size: 56px;
+}
+
+.fa-square-js {
+  color: gold;
+  background-color: #fff;
+  font-size: 56px;
+}
+
+.python {
+  height: 56px;
+}
+
+/* Projects - Project List */
+
+/* Main - Credentials Section */
