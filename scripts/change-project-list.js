@@ -3,6 +3,7 @@ const html5_logo = document.getElementById("html5-logo");
 const css3_logo = document.getElementById("css3-logo");
 const js_logo = document.getElementById("js-logo");
 const python_logo = document.getElementById("python-logo");
+const reset_btn = document.getElementById("reset");
 
 let list_item;
 let link;
@@ -132,6 +133,45 @@ python_logo.addEventListener("click", () => {
         link.href =
           "https://github.com/jjhenrichs/py_random_password_generator";
         link.innerHTML = "Random Password Genrator";
+        break;
+      default:
+        break;
+    }
+
+    list_item.appendChild(link);
+    project_list.appendChild(list_item);
+  }
+});
+
+// Reset Button Event Listener
+reset_btn.addEventListener("click", () => {
+  project_list.innerHTML = ""; //Removes all the content in the project_list
+
+  for (let i = 0; i < 5; i++) {
+    list_item = document.createElement("li");
+    link = document.createElement("a");
+    link.target = "_blank";
+
+    switch (i) {
+      case 0:
+        link.href = "https://github.com/jjhenrichs/Doggy-Daycare";
+        link.innerHTML = "Doggy Daycare";
+        break;
+      case 1:
+        link.href = "https://github.com/jjhenrichs/linkedin-loader";
+        link.innerHTML = "LinkedIn Loader";
+        break;
+      case 2:
+        link.href = "https://github.com/jjhenrichs/js-tictactoe";
+        link.innerHTML = "Tic-Tac-Toe";
+        break;
+      case 3:
+        link.href = "https://github.com/jjhenrichs/py_calculator";
+        link.innerHTML = "Tkinter Calculator";
+        break;
+      case 4:
+        link.href = "https://github.com/jjhenrichs/portfolio";
+        link.innerHTML = "and this Web Portfolio";
         break;
       default:
         break;
