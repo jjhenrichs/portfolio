@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/3309c74348.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/change-project-list.js" defer></script>
   </head>
   <body>
     <header>
@@ -79,22 +80,23 @@
         <div class="skills">
           <h3 class="skill-title">Skills:</h3>
           <ul>
-            <li><i class="fa-brands fa-html5"></i></li>
-            <li><i class="fa-brands fa-css3-alt"></i></li>
-            <li><i class="fa-brands fa-square-js"></i></li>
+            <li><i class="fa-brands fa-html5" id="html5-logo"></i></li>
+            <li><i class="fa-brands fa-css3-alt" id="css3-logo"></i></li>
+            <li><i class="fa-brands fa-square-js" id="js-logo"></i></li>
             <li>
               <img
                 src="./images/Python-logo.png"
                 alt="Python Logo"
                 title="Python"
                 class="python"
+                id="python-logo"
               />
             </li>
           </ul>
         </div>
         <div class="project-list">
           <h3 class="project-list-title">Project List:</h3>
-          <ul>
+          <ul id="project-list">
             <li>Project #1</li>
             <li>Project #2</li>
             <li>Project #3</li>
