@@ -94,6 +94,7 @@ h2 {
   width: 300px;
   padding: 0;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .fa-html5 {

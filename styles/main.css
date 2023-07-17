@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  border: 1px solid black;
+}
+
 ul {
   display: flex;
   list-style: none;
