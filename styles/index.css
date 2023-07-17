@@ -182,8 +182,11 @@ h2 {
   padding-bottom: 30px;
 }
 
+.certs h2 a {
+  color: #ddd;
+}
+
 .cert-list {
-  border: 1px solid #fff;
   display: inline-flex;
   justify-content: space-evenly;
   width: 100%;
@@ -191,10 +194,10 @@ h2 {
 }
 
 .cert {
-  border: 1px solid mediumspringgreen;
   height: 250px;
   width: 425px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .cert1 {
