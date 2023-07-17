@@ -2,6 +2,13 @@
   border-bottom: 3px solid blue;
 }
 
+/* Main */
+
+main {
+  background-color: azure;
+  border: 1px solid transparent;
+}
+
 h2 {
   text-align: center;
   padding: 15px;
@@ -11,6 +18,8 @@ h2 {
 #icons {
   width: 500px;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 #icons ul {
