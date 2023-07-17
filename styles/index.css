@@ -73,6 +73,8 @@ h2 {
 #projects {
   background: #fff;
   color: #666;
+  padding: 0;
+  border: 1px solid transparent;
 }
 
 /* Projects - Skills */
@@ -81,7 +83,6 @@ h2 {
   display: flex;
   justify-content: center;
   color: #333;
-  margin-top: 20px;
 }
 
 .skill-title {
@@ -125,7 +126,7 @@ h2 {
   margin: 100px 50px 200px;
   width: 300px;
   margin: 10px auto;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -173,9 +174,61 @@ h2 {
   }
 }
 
-/* Main - Credentials Section */
+/* Main - Certifications Section */
 
 .certs {
   background-color: #333;
   color: #ddd;
+  padding-bottom: 30px;
+}
+
+.cert-list {
+  border: 1px solid #fff;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.cert {
+  border: 1px solid mediumspringgreen;
+  height: 250px;
+  width: 425px;
+  margin: 10px;
+}
+
+.cert1 {
+  background-image: url("./../images/certs/DB_Fundamentals.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.cert2 {
+  background-image: url("./../images/certs/PCEP.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.cert3 {
+  background-image: url("./../images/certs/AWS_CC.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.cert4 {
+  background-image: url("./../images/certs/Java_SE_8.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 425px) {
+  .cert {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cert {
+    height: 180px;
+  }
 }
