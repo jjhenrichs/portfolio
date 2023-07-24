@@ -7,6 +7,18 @@ h2 {
   padding: 40px 0 20px;
 }
 
+b {
+  color: #fff;
+}
+
+b.tech {
+  color: rgb(181, 244, 244);
+}
+
+a.location {
+  color: aqua;
+}
+
 /* Main */
 
 /* Main - Bio Section */
@@ -28,9 +40,10 @@ h2 {
   margin-left: 200px;
 }
 
-#bio article p {
-  width: 700px;
-  padding: 50px;
+p {
+  padding: 10px;
+  margin: 5px;
+  line-height: 1.5;
 }
 
 /* Main - Bio Section Media Queries */
