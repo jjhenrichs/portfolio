@@ -13,21 +13,7 @@ footer {
   font-size: 20px;
 }
 
-/* Footer - Social Media Icons */
-
-.social-media p {
-  padding: 5px;
-  text-align: center;
-}
-
-.social-media ul {
-  justify-content: space-evenly;
-  padding: 5px 0;
-}
-
-.social-media ul i {
-  font-size: 36px;
-}
+/* Footer - Copyright */
 
 .copyright {
   text-align: center;

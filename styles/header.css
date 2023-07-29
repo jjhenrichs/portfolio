@@ -18,6 +18,7 @@
   padding: 10px;
   margin-left: 30px;
   margin-bottom: 10px;
+  font-size: 28px;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav ul {
 
 nav ul li {
   padding: 10px 20px;
+  font-size: 24px;
 }
 
 .fa-solid {
@@ -70,6 +72,7 @@ nav ul li {
 
   #logo {
     margin: 5px 0;
+    font-size: 20px;
   }
 
   .mobile nav {
