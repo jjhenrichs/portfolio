@@ -26,6 +26,8 @@ a.location {
 #bio {
   background: #333;
   color: #bbb;
+  width: 100%;
+  border: pink;
 }
 
 #bio article {
@@ -38,6 +40,11 @@ a.location {
   width: 200px;
   margin: 100px 50px;
   margin-left: 200px;
+}
+
+.paragraphs {
+  border: 1px solid white;
+  padding: 10px;
 }
 
 p {
@@ -63,157 +70,151 @@ p {
     margin: 0 auto;
   }
 
-  #bio article p {
-    width: 100%;
-    padding: 40px;
+  @media only screen and (max-width: 425px) {
+    #bio h2 {
+      padding: 20px 0;
+    }
+
+    #bio article img {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
   }
-}
 
-@media only screen and (max-width: 425px) {
-  #bio h2 {
-    padding: 20px 0;
+  /* Main - Projects Section */
+
+  #projects {
+    background: #fff;
+    color: #666;
+    padding: 0;
+    border: 1px solid transparent;
   }
 
-  #bio article img {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-  }
-}
-
-/* Main - Projects Section */
-
-#projects {
-  background: #fff;
-  color: #666;
-  padding: 0;
-  border: 1px solid transparent;
-}
-
-/* Projects - Skills */
-
-.skills {
-  display: flex;
-  justify-content: center;
-  color: #333;
-}
-
-.skill-title {
-  padding: 15px 10px;
-}
-
-.skills ul {
-  display: flex;
-  justify-content: space-evenly;
-  width: 300px;
-  padding: 0;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.fa-html5 {
-  color: orangered;
-  background: #fff;
-  font-size: 56px;
-}
-
-.fa-css3-alt {
-  color: blue;
-  background: #fff;
-  font-size: 56px;
-}
-
-.fa-square-js {
-  color: gold;
-  background-color: #fff;
-  font-size: 56px;
-}
-
-.python {
-  height: 56px;
-}
-
-/* Projects - Project List */
-
-.project-list {
-  margin: 100px 50px 200px;
-  width: 300px;
-  margin: 10px auto;
-  padding-bottom: 50px;
-  text-align: center;
-}
-
-.project-list-title {
-  text-align: center;
-}
-
-.project-list ul {
-  display: inline;
-}
-
-.project-list ul li {
-  margin: 0 auto;
-  font-size: 18px;
-  text-align: center;
-  padding: 3px;
-}
-
-#reset {
-  border-radius: 50%;
-  padding: 18px 10px;
-  color: #ddd;
-  background-color: navy;
-}
-
-/* Projects - Media Queries */
-@media only screen and (max-width: 425px) {
-  #projects h2 {
-    padding: 30px 0 20px;
-  }
+  /* Projects - Skills */
 
   .skills {
-    display: inline;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #333;
   }
 
   .skill-title {
-    text-align: center;
-    padding-top: 0;
+    padding: 15px 10px;
   }
 
   .skills ul {
-    width: 100%;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
   }
-}
 
-/* Main - Certifications Section */
+  .fa-html5 {
+    color: orangered;
+    background: #fff;
+    font-size: 56px;
+  }
 
-#certs {
+  .fa-css3-alt {
+    color: blue;
+    background: #fff;
+    font-size: 56px;
+  }
+
+  .fa-square-js {
+    color: gold;
+    background-color: #fff;
+    font-size: 56px;
+  }
+
+  .python {
+    height: 56px;
+  }
+
+  /* Projects - Project List */
+
+  #projects {
+    background-color: #fff;
+  }
+
+  .project-list {
+    margin: 100px 50px 200px;
+    width: 300px;
+    margin: 10px auto;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .project-list-title {
+    text-align: center;
+  }
+
+  .project-list ul {
+    display: inline;
+  }
+
+  .project-list ul li {
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    padding: 3px;
+  }
+
+  #reset {
+    border-radius: 50%;
+    padding: 18px 10px;
+    color: #ddd;
+    background-color: navy;
+  }
+
+  /* Projects - Media Queries */
+  @media only screen and (max-width: 425px) {
+    #projects h2 {
+      padding: 30px 0 20px;
+    }
+
+    .skills {
+      display: inline;
+      margin: 0;
+    }
+
+    .skill-title {
+      text-align: center;
+      padding-top: 0;
+    }
+
+    .skills ul {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  /* Main - Certifications Section */
+
+  /* #certs-section {
   background-color: #333;
   color: #ddd;
   padding-bottom: 30px;
-}
+} */
 
-#certs h2 a {
+  /* #certs-section h2 a {
   color: #ddd;
-}
+} */
 
-.cert-list {
+  /* .cert-list {
   display: inline-flex;
   justify-content: space-evenly;
   width: 100%;
   flex-wrap: wrap;
-}
+  border: 1px solid white;
+  padding: 10px;
 
-.cert {
-  height: 250px;
-  width: 425px;
-  margin: 10px;
-  cursor: pointer;
-}
+} */
 
-.cert1 {
+  /* .cert1 {
   background-image: url("./../images/certs/DB_Fundamentals.png");
   background-position: center;
   background-size: cover;
@@ -235,16 +236,25 @@ p {
   background-image: url("./../images/certs/Java_SE_8.png");
   background-position: center;
   background-size: cover;
-}
+} */
 
-@media only screen and (max-width: 425px) {
-  .cert {
-    height: 200px;
+  /* @media only screen and (max-width: 425px) {
+
+  #cert {
+    padding-bottom: 0;
   }
+
+  .cert-list {
+    border: 1px solid blue;
+  }
+  .cert {
+    height: 220px;
+    margin: 5px 0;
+  } */
 }
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
   .cert {
     height: 180px;
   }
-}
+} */
