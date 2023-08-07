@@ -1,0 +1,78 @@
+#bio {
+  background-color: beige;
+  font-family: Roboto;
+}
+
+#bio h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2.5em;
+}
+
+#bio article {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#paragraphs {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.paragraph {
+  padding: 5px 10px;
+  font-size: 1.15rem;
+}
+
+.paragraph span {
+  padding-left: 20px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 2560px) {
+  #profile-pic {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  #profile-pic {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #bio article {
+    display: inline;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #bio h2 {
+    font-size: 2em;
+  }
+  .paragraph {
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .paragraph {
+    font-size: 1rem;
+  }
+}
