@@ -16,7 +16,6 @@
 }
 
 .img-container {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +27,6 @@
 }
 
 #paragraphs {
-  border: 1px solid blue;
   padding: 10px;
 }
 
@@ -47,11 +45,26 @@
   #profile-pic {
     width: 450px;
   }
+
+  #bio {
+    padding-bottom: 50px;
+  }
+
+  #paragraphs {
+    padding-left: 100px;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
   #profile-pic {
     width: 200px;
+  }
+  #bio {
+    padding-bottom: 0;
+  }
+
+  #paragraphs {
+    padding-left: 40px;
   }
 }
 
@@ -59,6 +72,10 @@
   #bio article {
     display: inline;
     width: 100%;
+  }
+
+  #paragraphs {
+    padding-left: 10px;
   }
 }
 
